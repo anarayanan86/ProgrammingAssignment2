@@ -2,7 +2,7 @@
 ## makeCacheMatrix:creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
-  m<-NULL                                         ## Initialize the inverse propert m<-NULL
+  m<-NULL                                         ## Initialize the inverse property m<-NULL
   set<-function(y){                               ## Method to set the matrix 
     x<<-y
     m<<-NULL
